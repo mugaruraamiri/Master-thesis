@@ -1,0 +1,236 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{celi2009mobile}{article}{}
+      \name{author}{5}{}{%
+        {{hash=08acb1a7768600900433951c54342648}{Celi}{C\bibinitperiod}{Leo\bibnamedelima Anthony}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=535a78ca0f8461228b9b82d24c548c34}{Sarmenta}{S\bibinitperiod}{Luis}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d9c8fe53e5db36713930db9c0849573}{Rotberg}{R\bibinitperiod}{Jhonathan}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2f7123ce6d602c8ae3dc936e59218912}{Marcelo}{M\bibinitperiod}{Alvin}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ab4481ca21981ec0bba2be3218964232}{Clifford}{C\bibinitperiod}{Gari}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {NIH Public Access}%
+      }
+      \strng{namehash}{d1b84e4a9e557b60699bc84d782cfd25}
+      \strng{fullhash}{25997558bb8d360e0e4b9799b64fb1a5}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of health informatics in developing countries}
+      \field{number}{1}
+      \field{title}{Mobile care (Moca) for remote diagnosis and screening}
+      \field{volume}{3}
+      \field{year}{2009}
+      \field{pages}{17}
+      \range{pages}{1}
+    \endentry
+    \entry{chen2004human}{article}{}
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=fbd25702ea2ce9bb410daf4ef50d3f26}{Chen}{C\bibinitperiod}{Lincoln}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=1301a6449803129abe7d8532628794bb}{Evans}{E\bibinitperiod}{Timothy}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=91e7e9a1cdc7c82e6eb3397743a7cf25}{Anand}{A\bibinitperiod}{Sudhir}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=fd7ac35c39a04bdf81104d1f5608211b}{Boufford}{B\bibinitperiod}{Jo\bibnamedelima Ivey}{J\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=9d507595ab0744dc6acbcdd1cc017632}{Brown}{B\bibinitperiod}{Hilary}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=e69bacdb70f6c44ad725a97e1e2ae50a}{Chowdhury}{C\bibinitperiod}{Mushtaque}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=21475383332ee2167e4c83156294864e}{Cueto}{C\bibinitperiod}{Marcos}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b72253a8acdd13507d41ba16496ac738}{Dare}{D\bibinitperiod}{Lola}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=710b8a8c97c62e2330673bb674090b9b}{Dussault}{D\bibinitperiod}{Gilles}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=50261fa00cd18ae081fafed91c7c3913}{Elzinga}{E\bibinitperiod}{Gijs}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c50d0d2b9734f917215b2756bbdcf578}
+      \strng{fullhash}{5820e85aa49faca72177cd60382cbc69}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet}
+      \field{number}{9449}
+      \field{title}{Human resources for health: overcoming the crisis}
+      \field{volume}{364}
+      \field{year}{2004}
+      \field{pages}{1984\bibrangedash 1990}
+      \range{pages}{7}
+    \endentry
+    \entry{condo2014rwanda}{article}{}
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=4519787d410cadf89493d32dd2f5a487}{Condo}{C\bibinitperiod}{Jeanine}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=d750987abe8528e0a131756c2ab7362d}{Mugeni}{M\bibinitperiod}{Catherine}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=fdbfd39d5ee0c1ccca8357b7e8acff76}{Naughton}{N\bibinitperiod}{Brienna}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=b04d861160ee7786f5c5b780ae4c2cc1}{Hall}{H\bibinitperiod}{Kathleen}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=07829733e27a09150312efe2674eef6f}{Tuazon}{T\bibinitperiod}{Maria\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=b627046c973d6da361d87eb92948bcf0}{Omwega}{O\bibinitperiod}{Abiud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=22ad1fbf518d49a7b7ba387775049c42}{Nwaigwe}{N\bibinitperiod}{Friday}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=5124c6888edbbe5b17db16a9337c41a5}{Drobac}{D\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=797832f340f907634155b1c6afdae40e}{Hyder}{H\bibinitperiod}{Ziauddin}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=81431caad72face703089bd3733fdb19}{Ngabo}{N\bibinitperiod}{Fidele}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central Ltd}%
+      }
+      \strng{namehash}{fc4c1623ec5dbaceaa06bab306c94f97}
+      \strng{fullhash}{1d3ecef10e890180805c87d875dfbddd}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Human resources for health}
+      \field{number}{1}
+      \field{title}{Rwanda?s evolving community health worker system: a qualitative assessment of client and provider perspectives}
+      \field{volume}{12}
+      \field{year}{2014}
+      \field{pages}{71}
+      \range{pages}{1}
+    \endentry
+    \entry{farmer2013reduced}{article}{}
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=3e3a2f87f880d7abb619c531675745fd}{Farmer}{F\bibinitperiod}{Paul\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=15b01e9e5ff2010f1cdf607af2ccead0}{Nutt}{N\bibinitperiod}{Cameron\bibnamedelima T}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=79f9ccc3132a6caf27938a875ee2add7}{Wagner}{W\bibinitperiod}{Claire\bibnamedelima M}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0e84708fd56e58ab6d5109b7432e15d0}{Sekabaraga}{S\bibinitperiod}{Claude}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=91ba385a8ed354855eb76ae0d7b2591e}{Nuthulaganti}{N\bibinitperiod}{Tej}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=34a52e4f1cdd2f1a70d13e2e950954e6}{Weigel}{W\bibinitperiod}{Jonathan\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=13d843b4c4a712a3d1ed51200d7d0178}{Farmer}{F\bibinitperiod}{Didi\bibnamedelima Bertrand}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=46800a092ee08dfccbb640222f3ba7b3}{Habinshuti}{H\bibinitperiod}{Antoinette}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1f9584827702da646a7afa27b2caf8a9}{Mugeni}{M\bibinitperiod}{Soline\bibnamedelima Dusabeyesu}{S\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=291e715da1edf7f1de2cb0eefb79aca8}{Karasi}{K\bibinitperiod}{Jean-Claude}{J\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {British Medical Journal Publishing Group}%
+      }
+      \strng{namehash}{57435f86fef4694ecd0130accfbd4913}
+      \strng{fullhash}{bb16c082397643f970c13c57b0c7fdc6}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reduced premature mortality in Rwanda: lessons from success}
+      \field{year}{2013}
+    \endentry
+    \entry{ArduinoUnoSpecs}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5ae2243c5271f78de99adf6e9cb3b289}{Inc}{I\bibinitperiod}{Arduino}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5ae2243c5271f78de99adf6e9cb3b289}
+      \strng{fullhash}{5ae2243c5271f78de99adf6e9cb3b289}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Technical specs}
+      \field{urlday}{25}
+      \field{urlmonth}{05}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.arduino.cc/en/main/arduinoBoardUno
+      \endverb
+    \endentry
+    \entry{msuryadeekshithguptavamsikrishnapatchavavirginiamenezes2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3a226a865986380adb7a9b5813f67759}{M.\bibnamedelimi Surya\bibnamedelimb Deekshith\bibnamedelima Gupta}{M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod}{Virginia\bibnamedelima Menezes}{V\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{Vamsikrishna\bibnamedelima Patchava}{V\bibinitperiod\bibinitdelim P\bibinitperiod}}%
+      }
+      \list{publisher}{2}{%
+        {International Conference on Green Computing}%
+        {Internet of Things(ICGCIoT)}%
+      }
+      \strng{namehash}{3a226a865986380adb7a9b5813f67759}
+      \strng{fullhash}{3a226a865986380adb7a9b5813f67759}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE}
+      \field{number}{1}
+      \field{title}{Health Care Based on IoT Using Raspberry Pi}
+      \field{volume}{15}
+      \field{year}{2015}
+      \field{pages}{4}
+      \range{pages}{1}
+    \endentry
+    \entry{munoz2012geographical}{article}{}
+      \name{author}{2}{}{%
+        {{hash=103ea1f91b7d76badbcc11db5b616455}{Munoz}{M\bibinitperiod}{Ulises\bibnamedelima Huerta}{U\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=d349dd0e2352782f18bdbfefb3b5ee60}{Källestål}{K\bibinitperiod}{Carina}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {BioMed Central}%
+      }
+      \strng{namehash}{5d3645e2ae29bb6dbd17b8ea350c5c08}
+      \strng{fullhash}{5d3645e2ae29bb6dbd17b8ea350c5c08}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of health geographics}
+      \field{number}{1}
+      \field{title}{Geographical accessibility and spatial coverage modeling of the primary health care network in the Western Province of Rwanda}
+      \field{volume}{11}
+      \field{year}{2012}
+      \field{pages}{1}
+      \range{pages}{1}
+    \endentry
+    \entry{twahirwa2008sharing}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9556bd217515bd88a6e5b4eae5bb0d96}{Twahirwa}{T\bibinitperiod}{Aimable}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{9556bd217515bd88a6e5b4eae5bb0d96}
+      \strng{fullhash}{9556bd217515bd88a6e5b4eae5bb0d96}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of the World Health Organization}
+      \field{number}{11}
+      \field{title}{Sharing the burden of sickness: mutual health insurance in Rwanda}
+      \field{volume}{86}
+      \field{year}{2008}
+      \field{pages}{823\bibrangedash 825}
+      \range{pages}{3}
+    \endentry
+    \entry{theunitednationschildrensemergencyfundunicef2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=44d63eb2ab18cc590041ec833dfadb64}{(UNICEF)}{(\bibinitperiod}{The\bibnamedelimb United\bibnamedelimb Nations\bibnamedelimb Children's\bibnamedelimb Emergency\bibnamedelima Fund}{T\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{44d63eb2ab18cc590041ec833dfadb64}
+      \strng{fullhash}{44d63eb2ab18cc590041ec833dfadb64}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wikipedia}
+      \field{title}{Rwanda Statistics}
+      \field{year}{2013}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
