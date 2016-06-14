@@ -159,5 +159,131 @@ USB OTG cable is a special USB cable using standards that can allow an android s
 USB OTG cable was used in this work to enable the smart phone as the gateway and can read and process the information from the sensors through the micro controller.
 
 \subsection{Android smart phone}
+
+The android smartphone (Samsung Galaxy S4) unit is used to read data from the health sensors using OTG cable as an interface. By using the smartphone processing power the custom made application processes the data and visualize them on the screen for further decision making on the ground by CHWs. In addition, the addition smartphone sensors are used to collect more information such as GPS and camera. Also it can temporarily store data locally in a SQLite database as a transitional database before sending data to the cloud for avoiding loss of data in case there is a network problem. The OTG cable was chosen not only to transfer data back and forth between the android smartphone and the e-health device but also to pawer the e-health device with the smartphone battery. the following table show the specification of the smart phone used in this study.
+
+\begin{table}[H]
+\begin{center}
+    \begin{tabular}{ |l|l|l| }
+\hline
+{\bfseries Parameters} & {\bfseries Specifications} \\ \hline
+Screen size & 5.1 in \\ \hline
+\multirow{2}{*}{\bfseries Storage} 
+ & 16/32 GB internal,  \\
+ & MicroSD slot up to 128 GB\\
+\hline
+\bfseries Operating System & Androind Kit Kat\\ \hline
+\multirow{2}{*}{\bfseries Battery Life} 
+ & Up to 21 hours talk,  \\
+ & up to 67 hours music\\
+\hline
+\multirow{2}{*}{\bfseries Camera} 
+ & 16 MP primary,  \\
+ & 2 MP fron-facing\\
+\hline
+\multirow{2}{*}{\bfseries Processor} 
+ & Qualcomm MSM8974AC,  \\
+ & Snapdragon 801, Quad-core 2.5GHz krait 400\\
+\hline
+\end{tabular}
+\end{center}
+\caption{Android smartphone technical specification}\label{Smart phone}
+\end{table}
+
 \subsection{Server hardware}
-\section{System Software Design}
+
+The server computer will be used to host the web application and store the data from the mobile smartphone. The server computer hardware will be able to handle all the request form the authorized users and have the power to perform or complex data manipulation. the following table show the minimum requirements of a ubuntu server.
+
+\begin{table}[H]
+\begin{center}
+   \begin{tabular}{|l|l|l|l|l|}
+    \hline
+    \bfseries Install Type & \bfseries RAM & \bfseries CPU & \multicolumn{2}{ l| }{\bfseries Hard drive space} \\
+   \cline{1-5}
+   & & & \bfseries Base system & \bfseries All tasks Installed \\ 
+\hline
+   \bfseries Server(Standard) & 1 gigahertz & 512 megabytes & 1 gigabytes & 1.75 gigabytes \\
+\hline
+   \bfseries Server(Minimum) & 300 megahertz & 192 megabytes & 700 megabytes & 1.4 gigabytes \\
+\hline
+  \end{tabular}
+\end{center}
+\caption{Recommanded minimun Lunix server requirement}\label{Server}
+\end{table}
+
+In this study a ubuntu server was used with ubuntu version 14.0.0 . for storing the data a non-relational database Mongodb was configured to save the data as collections in a non-relation fashion. The server is also configured to host a python server application with several other python package for data visualization and analysis.
+
+\section{System Software Design and Tools}
+
+In this section Software design and components are discussed in more details. Tools as well as libraries used in different levels of the system will be also discusses with the functionalities they implements. Sample codes to show some of the functionalities may or may not be shown here to be found in the code snippet on appendix pages.
+
+\subsection{e-Health device}
+
+The device is build on top of the e-health board kit that was developed by cooking hack, and it comes with a number of sensors. The kit is bundled with a library that provide build-in methods functions to collect and gather data from the different sensor node. The diagram below illustrates the software building block and the information flow mechanisms of the designed device. The device is compatible with Arduino micro-controller and Raspberry pi. In this study we chose to work with Arduino in this study for its many advantage it brings such as interfacing with a smart-phone easily and also provides an easy to use programming environment.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=13cm]{images/ehealth_devices_design.png} % This scales the picture to
+                                      % a width of 10cm
+                                      % You can scale to the
+                                      % width or height you need
+%\end{center}
+\caption{eHealth device building blocls and algorithm design}
+\label{fig:fig-eg}
+\end{figure}
+
+
+Arduino IDE is used to write functionalities that allow to access to sensors and collect sensor readings through the eHealth library that is written in C++. The IDE is also used to alter the library code to enhance the sensors readings. More libraries where used such as serial-communication library for the Arduino to communicate with the mobile handset via bluetooth communication protocol for further experiments.
+
+
+\subsection{Android Application}
+
+
+Android Studio IDE was used to write the android application that reads data from the Arduino micro controller via the OTG cable in the form of bytes. Android Application is written using Java for android and uses a number of open-source such as the google play services library for notification often called Google Cloud Messaging Library and the OKHttp android library for data transmission over the internet to the cloud application. With the use of OKHttp android library the android smart-phone does not only used to read information, process them and to store them temporary but also as a hub between the sensor devices and the cloud application. The diagram bellow show the class design diagram of the android application. The diagram show all the minimum viable functionality of the prototype and all third party services to enhance its usability.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=13cm]{images/android_application_design.png} % This scales the picture to
+                                      % a width of 10cm
+                                      % You can scale to the
+                                      % width or height you need
+%\end{center}
+\caption{Android Application software design classes}
+\label{fig:fig-eg}
+\end{figure}
+
+
+\subsection{Server Application}
+
+
+the server application is responsible of providing more capability of processing and storing data in a more fashioned way. As described in the previous chapters the cloud application uses web technologies and this allows the dashboard application to be accessed easily on different devices that are connected to the internet. Allowed medical Doctors and Nurses can access information at any time and provide the assistance to CHWs through the same cloud application. The following diagram show the major components of the cloud applications and the processes involved in charing data with the Android mobile application.
+\begin{figure}[H]
+\centering
+\includegraphics[width=12cm]{images/wegoo_web_building_blocks.png} % This scales the picture to
+                                      % a width of 10cm
+                                      % You can scale to the
+                                      % width or height you need
+%\end{center}
+\caption{Server Application design diagram}
+\label{fig:fig-eg}
+\end{figure}
+
+
+The figure above shows for every components the technology associated. The web application is build using python and takes the advantages of the python data processing capabilities. The basic aim of the web application is to provide the linkage between the experienced Doctors and nursers after further investigation on the data is carried out. The technologies illustrated in the above figure was chosen to make the data access and processing smooth and easy to ready including:
+\begin{enumerate}
+	\item The entire application is build on top of RESTful services. As Roy Fielding introduced REST (Representational state transfer) in his Doctoral dissertation, REST provides a component based style with a clear interconnection of the components as well as the data exchange between the components. The distributed comments of the system communicate but not always through HTTP (HyperText Transfer Protocol) and with the help of different REST and HTTP verbs like GET, POST, PUT and DELETE components can request through data URIs (Uniform Resource Identifies). for instance, GET /data/api/v/56779f77b38b4664dcf6d165 shows a data URI to get information of a particular patient when Patient ID number is provided\cite{fieldingarchitectural}
+	\item {\bfseries Tornado}: is a python web framework that was developed original by FriendFeed. It is an asynchronous network library and it can handle many open connection due to its using non-blocking network I/O. Tornado was chosen in this work for it provides the capability of developing a distributed components based architecture, and it is suitable building data intense real time web applications dues to its supports of long pulling and web sockets. the following code snippets shoes an example of a simple Tornado application
+\begin{figure}[H]
+\centering
+\includegraphics[width=11cm]{images/tornado_sample_app.png} % This scales the picture to
+                                      % a width of 10cm
+                                      % You can scale to the
+                                      % width or height you need
+%\end{center}
+\caption{Tornado python framework application skeleton}
+\label{fig:fig-eg}
+\end{figure}
+	\item {\bfseries mongoDB} module was used to store the data from the android mobile application and to update the website. The information are stored into collections and each patient entry is classified as a document in the patient information collection. MongoDB is an open source cross-platform non-SQL database, in other words it is a document-oriented databases since it avoids the familiar SQL based databased structure of the table based and relational based databases. mongoDB makes the integration of data into application more easily since it provides data into JSON-like formants in the form of documents. Its flexible schemas allows the integration to store different kind of information in one place with key-value format \cite{mongodb2016}.
+\end{enumerate}

@@ -22,6 +22,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Health Care Based on IoT Using Raspberry Pi }{4}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Measuring ECG signal Using e-Health sensor platform}{5}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}Solution}{6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}System Design and Development}{8}
@@ -46,12 +48,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Android smart phone}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Server hardware}{14}
+\contentsline {subsection}{Server hardware}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}System Software Design}{14}
+\contentsline {section}{\numberline {4.7}System Software Design and Tools}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Result and Discussions}{15}
+\contentsline {subsection}{e-Health device}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{16}
+\contentsline {subsection}{Android Application}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{17}
+\contentsline {subsection}{Server Application}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {5}Result and Discussions}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{22}

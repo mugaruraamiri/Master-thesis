@@ -1,0 +1,15 @@
+#Compiled source #
+###########################
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.lof
+*.log
+*.lot
+*.xml
+*.gz
+*.toc
+*.sh
+*.html

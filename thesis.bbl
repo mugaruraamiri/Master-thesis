@@ -132,6 +132,19 @@
       \field{title}{Reduced premature mortality in Rwanda: lessons from success}
       \field{year}{2013}
     \endentry
+    \entry{fieldingarchitectural}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65b04d87933c4f12e4a2fe6f331b0002}{Fielding}{F\bibinitperiod}{Roy\bibnamedelima Thomas}{R\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{65b04d87933c4f12e4a2fe6f331b0002}
+      \strng{fullhash}{65b04d87933c4f12e4a2fe6f331b0002}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Architectural styles and the design of network-based software architectures}
+      \field{year}{2000}
+    \endentry
     \entry{ArduinoUnoSpecs}{online}{}
       \name{author}{1}{}{%
         {{hash=5ae2243c5271f78de99adf6e9cb3b289}{Inc}{I\bibinitperiod}{Arduino}{A\bibinitperiod}{}{}{}{}}%
@@ -173,6 +186,25 @@
       \field{pages}{4}
       \range{pages}{1}
     \endentry
+    \entry{mongodb2016}{online}{}
+      \name{author}{1}{}{%
+        {{hash=206e3718af092fd1d12f80cae771ccac}{MongoDB}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Release Notes for MongoDB 3.2}
+      \field{urlday}{13}
+      \field{urlmonth}{06}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://docs.mongodb.com/manual/release-notes/3.2/
+      \endverb
+    \endentry
     \entry{munoz2012geographical}{article}{}
       \name{author}{2}{}{%
         {{hash=103ea1f91b7d76badbcc11db5b616455}{Munoz}{M\bibinitperiod}{Ulises\bibnamedelima Huerta}{U\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
@@ -194,6 +226,23 @@
       \field{year}{2012}
       \field{pages}{1}
       \range{pages}{1}
+    \endentry
+    \entry{Measuring2014ecg}{article}{}
+      \name{author}{1}{}{%
+        {{hash=41c120da2f0e61b65b8a0696052cc3a8}{O.\bibnamedelimi Yakut}{O\bibinitperiod\bibinitdelim Y\bibinitperiod}{E.\bibnamedelimi D.\bibnamedelimi Bolat}{E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{S.\bibnamedelimi Solak}{S\bibinitperiod\bibinitdelim S\bibinitperiod}}%
+      }
+      \list{publisher}{1}{%
+        {International Conference on Chemistry}%
+      }
+      \strng{namehash}{41c120da2f0e61b65b8a0696052cc3a8}
+      \strng{fullhash}{41c120da2f0e61b65b8a0696052cc3a8}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{nternational Conference on Chemistry, Biomedical and Environment Engineering}
+      \field{title}{Measuring ECG Signal Using e-Health Sensor Platform}
+      \field{year}{2014}
     \endentry
     \entry{twahirwa2008sharing}{article}{}
       \name{author}{1}{}{%
